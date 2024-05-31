@@ -29,22 +29,32 @@ int main()
 
 	
 
-	int size = 10;
-	cin >> size;
-	int* ar2 = new int[size];
+	//int size = 10;
+	//cin >> size;
+	//int* ar2 = new int[size];
 
 
-	for (int i = 0; i < size; i++)
-		ar2[i] = i * i;
+	//for (int i = 0; i < size; i++)
+	//	ar2[i] = i * i;
 
-	for (int i = 0; i < size; i++)
-		cout << ar2[i] << endl;
+	//for (int i = 0; i < size; i++)
+	//	cout << ar2[i] << endl;
 
-	//int ar[size];
-    delete[] ar2; // dealocate the old memory from the heap
+	////int ar[size];
+ //   delete[] ar2; // dealocate the old memory from the heap
 
-	ar2 = new int[20];
+	//ar2 = new int[20];
 
+
+	int z = 5;
+
+	int* ptr2 = &z;
+
+	cout << ptr2 << endl;
+
+	ptr2++;
+
+	cout << ptr2 << endl;
 
 }
 
